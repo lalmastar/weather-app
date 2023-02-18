@@ -1,0 +1,104 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url("../../image.png"); */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#header{
+ color: white;
+}
+
+.homeContainer{
+    width: 60%;
+    height: 90%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,121,9,0.46262254901960786) 57%, rgba(14,163,123,1) 77%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.screens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.screens div{
+    padding-top: 50px;
+   width: 30%;
+   cursor: pointer;
+}
+
+.screens h3{
+    color: cyan
+}
+.currentLocation {
+    border-radius: 50%;
+    color: white;
+}
+.currentLocation * {
+    border-radius: 50%;
+    color: white;
+}
+
+.favList{
+    overflow-y: scroll;
+    scrollbar-width: 1px;
+}
+.p-tag{
+    color: white;
+}
+
+.currentLocation h3 , .indData h3{
+    color: lime
+}
+
+.favDiv{
+   display: flex; 
+   flex-direction: row; 
+    justify-content: space-evenly;
+   align-items: center;
+   justify-items: left;
+}
+
+.favDiv div{
+    width: 50%;
+    margin-left: 20%;
+    text-align: left;
+    height: 40px
+}
+
+button{
+   border-radius: 50%;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+#cityName, button{
+    cursor: pointer;
+}
+img{
+    height: 100px;
+}
+@media screen and (max-width: 600px){
+    .homeContainer{
+        width: 90%;
+      
+        
+    }
+    
+}
+

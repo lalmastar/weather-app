@@ -1,0 +1,56 @@
+
+.inputcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 260px;
+    padding-top: 20px;
+    /* align-items: center; */
+}
+
+input{
+    margin-right: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+.inputclass{
+    margin-right: 30px;
+}
+.homeContainer{
+    position: relative;
+}
+
+.indData{
+    background-color:rgb(245, 245, 245);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    height: 60%;
+    overflow-y: scroll;
+}
+.indData h3{
+    font-weight: 600;
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.favAdd{
+    position: absolute;
+    top:130px;
+    margin-left: 50%;
+}
+
+.errMsg{
+    color:red
+}
+
+h4, p,#image{
+    margin-top: 2px;
+    color: rgb(5, 5, 5);
+    font-family: 'Times New Roman', Times, serif;
+}
