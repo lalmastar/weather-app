@@ -1,5 +1,4 @@
 # Hosted link
-# https://now-floats-assignment.vercel.app/
 
 # Problem
 Your task is to create a  weather app that shows the current weather and forecast for a location. The app should allow users to search for locations and save their favorite locations for quick access.
